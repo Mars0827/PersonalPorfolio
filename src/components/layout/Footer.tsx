@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
           
           <div className="border-t border-gray-800 pt-8">
             <p className="text-gray-400 text-sm">
-              © 2025 Alex Johnson. All rights reserved.
+              © 2025 Mars Benitez. All rights reserved.
             </p>
           </div>
         </div>
