@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div className="text-2xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            Alex Johnson
+            Mars Benitez
           </div>
           <p className="text-gray-400 mb-6">
             Building the future, one line of code at a time.
