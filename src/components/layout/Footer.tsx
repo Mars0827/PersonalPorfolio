@@ -13,13 +13,13 @@ const Footer: React.FC = () => {
           </p>
           
           <div className="flex justify-center gap-6 mb-8">
-            <a href="https://github.com/alexjohnson" className="text-gray-400 hover:text-white transition-colors duration-200">
+            <a href="https://github.com/Mars0827" className="text-gray-400 hover:text-white transition-colors duration-200">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com/in/alexjohnson" className="text-gray-400 hover:text-white transition-colors duration-200">
+            <a href="https://www.linkedin.com/in/mars-benitez-28781a2b9/" className="text-gray-400 hover:text-white transition-colors duration-200">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:alex@example.com" className="text-gray-400 hover:text-white transition-colors duration-200">
+            <a href="mailto:marsbenitez@gmail.com" className="text-gray-400 hover:text-white transition-colors duration-200">
               <Mail size={24} />
             </a>
           </div>
