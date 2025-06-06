@@ -1,28 +1,30 @@
  // import { Project } from '../types/project';
 import type { Project } from '../types/project';
+import Bitwise from '../assets/images/bitwise.png';
+import Undercook from '../assets/images/undercook.png';
 const projects: Project[] = [
   {
     id: '1',
-    title: 'Portfolio Website',
-    description: 'A personal portfolio website to showcase my projects and skills.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    imageUrl: '/images/portfolio.png',
+    title: 'Bitwise',
+    description: 'A collaborative learning platform for students and professionals built with full-stack technologies.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'PostgreSQL', 'C#'],
+    imageUrl: Bitwise,
     githubUrl: '#',
     featured: true,
   },
 {
     id: '2',
-    title: 'E-commerce Platform',
-    description: 'A full-stack e-commerce application with user authentication and payment integration.',
-    technologies: ['React', 'Node.js', 'MongoDB'],
-    imageUrl: '/images/ecommerce.png',
+    title: 'Undercook',
+    description: 'A 2D single-player cooking game inspired by Overcooked, featuring time-based challenges and kitchen management.',
+    technologies: ['Java', 'LibGDX', 'PHPMyAdmin', 'MySQL'],
+    imageUrl: Undercook,
     githubUrl: '#',
     featured: true,
   },
   {
     id: '3',
-    title: 'Weather App',
-    description: 'A weather application that provides real-time weather updates using a public API.',
+    title: 'Serviso',
+    description: 'A full-stack service booking platform that connects clients with local workers for on-demand physical services.',
     technologies: ['React', 'API'],
     imageUrl: '/images/weather.png',
     githubUrl: '#',
@@ -30,7 +32,16 @@ const projects: Project[] = [
   },
   {
     id: '4',
-    title: 'Blog Platform',
+    title: 'Collabora',
+    description: 'A 2D dungeon exploration game featuring enemies, loot, and procedurally generated levels.',
+    technologies: ['Next.js', 'Prisma', 'PostgreSQL'],
+    imageUrl: '/images/blog.png',
+    githubUrl: '#',
+    featured: false,
+  },
+  {
+    id: '4',
+    title: 'Collabora',
     description: 'A blogging platform where users can create, edit, and delete posts.',
     technologies: ['Next.js', 'Prisma', 'PostgreSQL'],
     imageUrl: '/images/blog.png',

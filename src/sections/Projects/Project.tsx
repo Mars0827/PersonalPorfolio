@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { projects } from '../../data/project';
 import ProjectCard from './ProjectCard';
+
 const Projects: React.FC = () => {
   const [filter, setFilter] = useState<'all' | 'featured'>('all');
   

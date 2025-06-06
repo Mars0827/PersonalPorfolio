@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
       <img
         src={Galaxy}
         alt="Galaxy background"
-        className="absolute transform translate-y-20 w-screen h-screen object-cover z-0"
+        className="absolute transform translate-y-20 w-screen h-screen object-cover"
       />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex flex-col md:flex-row items-center justify-center gap-12">
@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
               </div>
             </div>
 
-            <div className="max-w-sm z-1">
+            <div className="max-w-sm">
               <img
                 src={Astronaut}
                 alt="Astronaut"
